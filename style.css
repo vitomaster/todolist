@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    width: 50%;
+}
+.footer-btn{
+    display: flex;
+    justify-content: center;
+}
+.outline:focus{
+    outline-color: beige;
+}
+li{
+    list-style-type: none;
+}
+.oi{
+    padding: auto;
+}
+.btn{
+    color: #495057;
+}
+.new-task{
+    max-width: inherit;
+}
+.hide{
+    display: none !important;
+}

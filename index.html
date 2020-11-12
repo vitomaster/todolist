@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="./open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>To do list</title>
+</head>
+<body class="bg-light">
+ 
+    <main class="m-auto">
+        <h1 class="text-center">To do</h1>
+        <header class="border mx-auto footer-btn">
+            <span class="m-2"><span class="count m-2"></span>items left</span>
+            <div class="footer-btn m-auto"> 
+                <button>all</button>
+                <button>active</button>
+                <button>completed</button>
+            </div>
+            <button class='clearAll'>Clear All</button>
+        </header>
+        <div class="input-group mb-0">
+            <input type="text" class="form-control input-data" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="What your plans for today ?">
+            <div class="input-group-prepend">
+                <span class="add-button input-group-text float-right" id="inputGroup-sizing-default">ADD</span>
+            </div>
+        </div>
+        <div class="mainList">
+            <!-- <div class="wrapper-big input-group mb-0">
+                <div class="wrapper input-group-prepend">
+                    <div class="small-wrapper input-group-text">
+                        <input type="checkbox" class="list-input" aria-label="Checkbox for following text input">
+                    </div>
+                </div>
+                <div class="new-task form-control" aria-label="Text input with checkbox"></div>
+                <div class="border btn .bg-light trashButton">
+                    <span class="oi oi-trash"></span>
+                </div>
+            </div> -->
+        </div>
+    </main>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+</body>
+</html>
